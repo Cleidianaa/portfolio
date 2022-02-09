@@ -8,8 +8,6 @@ window.addEventListener("load", () =>{
     },600)
 })
 
-
-
 /*------------ Toggle Navbar -----------*/
 const navToggler = document.querySelector(".nav-toggler")
 navToggler.addEventListener("click", () =>{

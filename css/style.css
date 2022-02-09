@@ -714,6 +714,7 @@ transition: width 0.3s ease;
 .pp-thumbnail img{
     border-radius: 10px;
 }
+
 .pp-header h3{
     font-size:  25px;
     text-transform: capitalize;
@@ -734,6 +735,7 @@ transition: width 0.3s ease;
     text-transform: lowercase;
     color: var(--main-color);
 }
+
 /* ------- Contact Section --------*/
 .contact-form,
 .contact-info{
