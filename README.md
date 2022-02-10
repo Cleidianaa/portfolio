@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleidiana - Portfolio Website</title>
+    <link rel="stylesheet" href="/css/font-awesome.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<!-- Page Loader Start-->
+<div class="page-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<!-- Page Loader End-->
+<!-- Background Circles Start-->
+<div class="bg-circles">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+    <div class="circle5"></div>
+</div>
+<!--Background Circles End-->
+
+<!-- Overlay Start -->
+
+<div class="overlay"></div>
+
+<!-- Overlay End -->
+
+<!-- Main Start -->
+<div class="main">
+
+    <!--Header Start-->
+    <header class="header">
+        <div class="container">
+            <div class="row flex-end">
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <nav class="nav">
+                    <div class="nav-inner">
+                        <ul>
+                            <li><a href="#home" class="nav-item link-item">home</a></li>
+                            <li><a href="#sobre" class="nav-item link-item">sobre</a></li>
+                            <li><a href="#portfolio" class="nav-item link-item">portifolio</a></li>
+                            <li><a href="#contact" class="nav-item link-item">contatos</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Header End-->
+
+    <!-- Home Section Start-->
+    <section class="home-section align-items-center active" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="home-text">
+                    <p>Olá, Eu sou</p>
+                    <h1>Cleid Passos</h1>
+                    <h2>frontend web developer</h2>
+                    <a href="#sobre" class="btn link-item">sobre me</a>
+                    <a href="#portfolio" class="btn link-item">portifolio</a>
+                </div>
+                <div class="home-img">
+                    <div class="img-box">
+                        <img src="/img/Cleid.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Section End-->
+    <!-- About Section Start-->
+    <section class="about-section sec-padding" id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Quem sou</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-img">
+                    <div class="img-box">
+                        <img src="img/Cleid.png" alt="about img">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        Curiosa por natureza, apaixonada por tecnologia, web, bancos de  dados e could computer . Acima de tudo, gosto de ver o codigo se tranformar em uma tela na web. Sou uma pessoa rigorosa com um olhar especial para os detalhes, foco  em Front-end, e  busco melhorar minhas habilidades  fazendo um curso  Full-stack, desta vez mais forte do que sempre. Isso é o que eu gosto de fazer, criar e aprender no processo de busca de coisas novas. Me chamo: Cleidiana , mas "Cleide" para os amigos!
+                    </p> 
+                    <h3>skills</h3>
+                    <div class="skills">
+                        <div class="skill-item">html</div>
+                        <div class="skill-item">css</div>
+                        <div class="skill-item">javascript</div>
+                        <div class="skill-item">react</div>
+                    </div>
+                    <div class="about-tabs">
+                        <button type="button" class="tab-item active" data-target="#education">educação</button>
+                        <button type="button" class="tab-item" data-target="#experience">experiência</button>
+                    </div>
+                    <!--Education Start-->
+                    <div class="tab-content active" id="education"> 
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <span class="date">2021 - 2022</span>
+                                <h4>web developer- <span>curso oneBitCode</span></h4>
+                                <p>Curso voltado para quem quer aprender a sedenvolver páginas web, curso completo, paara ser um Full Stack </p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <span class="date">18-05-2021 </span>
+                                <h4>Introdução á Cloud Computing & Fundamentos do Azure- <span>microsoft - womakers-code</span></h4>
+                                <p>Curso totalmente voltado pra quem está começando do ZERO com o Azure. Com duração de 3 horas </p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <span class="date">18-05-2021</span>
+                                <h4>LGPD e Privacidade - <span>microsoft - womakers-code</span></h4>
+                                <p>A Lei Geral de Proteção de Dados (LGPD) foi criada para dar mais clareza às pessoas sobre quais dados pessoais as instituições possuem sobre elas e garantir que essas empresas – públicas ou privadas, micro ou grandes – tratem esses dados seguindo certas regras específicas.Com duração de 1 hora </p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <span class="date">2010 - 2012</span>
+                                <h4>Gestão de Pessoas (RH) - <span>iesb</span></h4>
+                                <p>Desenvolva e aplique métodos e técnicas modernas de suporte à gestão de pessoas. Trabalhe com controle de admissão, desenvolvimento  e       retenção de talentos de uma empresa, e se prepare para lidar com folhas de pagamentos e benefícios.
+                                Aprenda como promover a interação das habilidades com o ambiente de trabalho, com foco no alcance das metas organizacionais e satisfação pessoal, desenvolvendo competências e conhecimentos administrativos aplicados ao gerenciamento das relações interpessoais nas organizações<p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Education End-->
+                    <!--Experience Start-->
+                    <div class="tab-content" id="experience">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <span class="date">2018- 2020</span>
+                                <h4>empregada de mesa - <span>olivier avenida</span></h4>
+                                <p>Executa os serviços de cafetaria e o serviço de mesa em situações especiais;
+                                    Procede ao acolhimento e atendimento dos clientes;
+                                    Encaminha reclamações de clientes tendo em conta a necessidade de assegurar um bom
+                                    clima relacional;
+                                    Efetua a faturação do serviço prestado.
+                                    Pôr mesas colocando toalhas, pratos, guardanapos, copos e talheres; Receber clientes,
+                                    apresentar ementa e lista de bebidas; Aconselhar na escolha de pratos e bebidas; Tomar
+                                    nota da escolha do cliente e transmitir à cozinha ou ao respovel do setor.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="date">2017 - 2018</span>
+                                <h4>recepcionista - <span>smile.up</span></h4>
+                                <p>organizar a agenda do dentista, gerenciando e organizando os cronogramas.
+                                    Tranquilizar os pacientes, um pois sabemos que muitos deles, especialmente as crianças, têm pavor de ir ao dentista. 
+                                    Esclarecer todas as dúvidas que o paciente venha a ter.
+                                    Encaminhar os pacientes para os profissionais apropriados da área odontológica conforme o tipo de tratamento necessitado.
+                                    Gerenciar pagamentos de honorários profissionais e dos planos odontológicos, bem como realizar a cobrança dos pacientes.
+                                    Gerenciar o prontuário dos pacientes, salvando informações como exames, anamneses, tratamentos a fazer, tratamentos já executados e movimentações financeiras do paciente.
+                                    Estar apta para resolver qualquer situação inesperada que venha a contecer, utilizando seus próprios recursos a fim de evitar qualquer mal estar com o paciente</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Experience End-->
+                    <a href="/img/CV-Cleidiana.pdf"  target="_blank" class="btn">download cv</a>
+                    <a href="#contact" class="btn link-item">contatos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End-->
+    <!-- Portfolio Section Start-->
+    <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>trabalho recente</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail"> 
+                        <img src="/img/capa-portfolio.png" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title">meu portfolio</h3>
+                    <button  type="button"class="btn view-project-btn">novo projeto</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Meu portfólio foi criado por mim, junto com video-aulas.  Além de aprender  vou colocando em prática meus conhecimentos, e aprendendo novas habilidades. Além de gostar do que vejo no final de cada projeto.
+                            </p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Criada - <span>18 Jan 2022</span></li>
+                                <li>tecnologia usada - <span>Html, Css, javascript</span></li>
+                                <li>role - <span>frontend</span></li>
+                                <li>ver online- <span><a href="#" target="_blank">www.portfolio.com</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Portfolio Item End-->
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail"> 
+                        <img src="/img/Landing-page.png" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title">Landing Page </h3>
+                    <button  type="button"class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque doloremque voluptatem, consectetur nam iusto enim aperiam, voluptatibus voluptate, iste officia temporibus expedita aliquid nulla odit sunt cumque quia! Veniam exercitationem reiciendis nesciunt eaque tenetur velit nobis, nam soluta itaque.
+                            </p>
+                            </div>
+                            <div class="general-info">
+                            <ul>
+                                <li>Criada - <span>29 Dec 2021</span></li>
+                                <li>tecnologia usada - <span>Html, Css, javascript</span></li>
+                                <li>role - <span>Frontend</span></li>
+                                <li>ver online - <span><a href="#" target="_blank">www.landing.com </a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Portfolio Item End-->
+                <!-- Portfolio Item Start -->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail"> 
+                        <img src="/img/Landing-page-ice.png" alt="portfolio item thumb">
+                    </div>
+                    <h3 class="portfolio-item-title">Landing Page-Ice </h3>
+                    <button  type="button"class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod atque doloremque voluptatem, consectetur nam iusto enim aperiam, voluptatibus voluptate, iste officia temporibus expedita aliquid nulla odit sunt cumque quia! Veniam exercitationem reiciendis nesciunt eaque tenetur velit nobis, nam soluta itaque.
+                            </p>
+                            </div>
+                            <div class="general-info">
+                            <ul>
+                                <li>Criada - <span>9 Fevereiro 2022</span></li>
+                                <li>tecnologia usada - <span>Html, Css, javascript</span></li>
+                                <li>role - <span>Frontend</span></li>
+                                <li>ver online - <span><a href="#" target="_blank">www.landing.com </a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Portfolio Item End-->
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section End-->
+
+    <!--Contact Section Start-->
+    <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>contate-me</h2> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form>
+                        <div class="row">
+                            <div class="input-group">
+                                <input type="text" placeholder="Nome" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Email" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="(M/F)" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <textarea placeholder="Mensagem" class="input-control" required></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit" class="btn">enviar mensagem</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>e-mail</h3>
+                        <p>cleidianapassos@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>telefone</h3>
+                        <p>(+351) 968 240-177</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>siga-me </h3>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/cleidiana1" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/Cleidipassos" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/cleidpassos/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UCc2gj8sdyhA88AT5SHeAY4w" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact Section End-->
+</div>
+<!-- Main end -->
+
+<!-- Portfolio item Details Popup Start -->
+<div class="portfolio-popup">
+    <div class="pp-inner">
+        <div class="pp-content">
+            <div class="pp-header">
+                <button type="button"
+                    class="btn pp-close"><i class="fas fa-times"></i></button>
+                <div class="pp-thumbnail">
+                    <img src="/img/Landing-page.png" alt="pp-thumbnail">
+                </div>
+                <h3></h3>
+            </div>
+            <div class="pp-body">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio item Details Popup End -->
+<script src="/js/script.js"></script>
+</body>
+</html>
