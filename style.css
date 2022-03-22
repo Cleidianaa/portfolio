@@ -4,15 +4,15 @@
 
 /*--------- Variables  // variaáveis ----------*/
 :root{
-    --main-color: #e02f6b;
-    --blue: #0000ff;
-    --blue-dark: #18293c;
-    --orange:#ffa500;
-    --green-yellow: #cddc39;
-    --pink-light: #5669d4;
-    --cyan-light: #fdfdfde8;
+    --main-color: #d11e5a;
+    --blue: #3a3ac5;
+    --blue-dark: #23466e;
+    --orange:#f5f821;
+    --green-yellow: #f71156;
+    --pink-light: #5073b4;
+    --cyan-light: rgb(250, 250, 250) ;
     --white: #ffffff;
-    --white-alpha-40: rgba(255, 255, 255, 0.40);
+    --white-alpha-40: rgba(248, 247, 247, 0.589);
     --white-alpha-25: rgba(255, 255, 255, 0.25);
     --backdrop-filter-blur: blur(5px); 
 }
@@ -70,14 +70,16 @@ img{
 ul{
     list-style: none;
 }
+/*
 section{
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
     min-height: calc(100vh - 70px);
-    border-radius: 30px;
+    border-radius: 8px;
     backdrop-filter: var(--backdrop-filter-blur);
-    display: none; /* faz com que não fique em uma só pagina*/
+    display: none; /* faz com que não fique em uma só pagina
 }
+*/
 section.active{
     display: block;
     animation: fadeIn 0.4s ease-in-out forwards;
@@ -144,9 +146,9 @@ button{
     line-height: 1.5;
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
-    padding: 10px 28px;
+    padding: 10px 26px;
     display: inline-block;
-    border-radius: 30px;
+    border-radius: 8px;
     color: var(--main-color);
     font-weight: 500;
     text-transform: capitalize;
@@ -157,7 +159,7 @@ button{
     position: relative;
     overflow: hidden;
     vertical-align: middle;
-    transition: color 0.3s ease;
+    transition: color 0.2s ease;
 }
 .btn::before{
 content: '';
@@ -229,7 +231,7 @@ transition: width 0.3s ease;
 }*/
 .bg-circles div{
     position: absolute;
-    border-radius: 50%;
+    border-radius: 8%;
 }
 .bg-circles .circle1{
     height: 60px;
@@ -300,7 +302,7 @@ transition: width 0.3s ease;
 .page-loader div{
     border: 2px solid transparent;
     position: absolute;
-    border-radius: 50%;
+    border-radius: 8px;
     opacity: 0.6;
     border-top-color: transparent !important;
     border-bottom-color: transparent !important;
@@ -346,7 +348,7 @@ transition: width 0.3s ease;
     height: 40px;
     border: none;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 8%;
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
     display: flex;
@@ -382,7 +384,7 @@ transition: width 0.3s ease;
 }
 .header .nav-toggler span::before{
     left: 0;
-    transform: translateY(-8px);
+    transform: translateY(-6px);
 }
 .header.active .nav-toggler span::before{
     transform: rotate(45deg);
@@ -419,7 +421,7 @@ transition: width 0.3s ease;
     border: 1px solid var(--white-alpha-40);
     backdrop-filter: var(--backdrop-filter-blur);
     padding: 50px 0;
-    border-radius: 30px;
+    border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -490,7 +492,7 @@ transition: width 0.3s ease;
 .home-text .btn{
     margin: 0 15px 15px 0;
 }
-.home-img .img-box{
+.home-img .img-box{ /* foto prinicpal*/
     max-width: 360px;
     background-color: var(--white-alpha-25);
     border-radius: 50%;
@@ -499,7 +501,7 @@ transition: width 0.3s ease;
 }
 .home-img .img-box img{
     width: 100%;
-    border-radius: 50%;
+    border-radius: 65%;
 }
 /*------- About Section // ou sobre eu -----*/
 .about-img{
@@ -515,7 +517,7 @@ transition: width 0.3s ease;
     max-width: 380px;
     border: 1px solid var(--white-alpha-40);
     margin: auto;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .about-img .img-box img{
     width: 100%;
@@ -537,7 +539,7 @@ transition: width 0.3s ease;
     padding: 5px 15px;
     text-transform: capitalize;
     margin: 0 10px 10px 0;
-    border-radius: 20px;
+    border-radius: 8px;
 }
 .about-tabs{
     margin-top: 20px;
@@ -614,7 +616,7 @@ transition: width 0.3s ease;
     background-color: var(--main-color);
     left: 0%;
     top: 16px;
-    border-radius: 50%;
+    border-radius: 50px;
 }
 .about-text .timeline-item:last-child{
     margin-bottom: 0;
@@ -643,10 +645,10 @@ transition: width 0.3s ease;
     margin: 0 15px 30px;
 }
 .portfolio-item-thumbnail{
-    padding: 10px;
+    padding: 12px;
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .portfolio-item-thumbnail img{
     width: 100%;
@@ -684,7 +686,7 @@ transition: width 0.3s ease;
 .pp-content{
     background-color: var(--white-alpha-25);
     padding: 30px;
-    border-radius: 30px;
+    border-radius: 8px;
     max-width: 900px;
     width: 100%;
     border: 1px solid var(--white-alpha-40);
@@ -712,7 +714,7 @@ transition: width 0.3s ease;
    top: -40px;
 }
 .pp-thumbnail img{
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .pp-header h3{
@@ -735,7 +737,6 @@ transition: width 0.3s ease;
     text-transform: lowercase;
     color: var(--main-color);
 }
-
 /* ------- Contact Section --------*/
 .contact-form,
 .contact-info{
@@ -755,7 +756,7 @@ transition: width 0.3s ease;
     display: block;
     width: 100%;
     height: 50px;
-    border-radius: 40px;
+    border-radius: 8px;
     border: none;
     font-family: inherit;
     font-weight: 400;
@@ -782,7 +783,6 @@ transition: width 0.3s ease;
     font-size: 20px;
     text-transform: capitalize;
     margin: 0 0 5px;
-
 }
 .contact-info-item .social-links a{
     display: inline-flex;
@@ -793,7 +793,7 @@ transition: width 0.3s ease;
     background-color: var(--white-alpha-25);
     border:  1px solid var(--white-alpha-40);
     color: var(--main-color);
-    border-radius: 50%;
+    border-radius: 8px;
     margin: 6px 30px 0 0;
     transition: all 0.3s ease;
 }
